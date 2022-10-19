@@ -3,7 +3,8 @@ on: [push]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    matrix:
+    strategy:
+      matrix:
         node-version: [12.x]
     steps:
     - name: Checkout
