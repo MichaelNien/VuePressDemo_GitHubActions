@@ -13,7 +13,7 @@ module.exports = {
     ],
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Github', link: 'https://github.com/shazi7804/terraform-manage-guide' }
+	  { text: 'Test1', link: '/book/test.md' }
     ]
   }
 }
