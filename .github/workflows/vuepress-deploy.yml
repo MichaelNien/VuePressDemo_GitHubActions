@@ -4,8 +4,6 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - run: yarn add @renovamen/vuepress-plugin-mermaid
-    
     - name: Checkout
       uses: actions/checkout@v2
 
