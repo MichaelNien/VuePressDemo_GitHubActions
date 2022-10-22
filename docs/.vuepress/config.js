@@ -3,6 +3,9 @@ module.exports = {
   description: 'Terraform manage guide',
   base: '/terraform-manage-guide/',
   repo: 'https://github.com/shazi7804/terraform-manage-guide',
+  plugins: [
+        'mermaidjs'
+  ],
   themeConfig: {
     sidebarDepth: 0,
     sidebar: [
