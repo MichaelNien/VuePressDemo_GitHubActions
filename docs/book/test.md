@@ -10,3 +10,12 @@ pie title 測試
 graph TD;
 國產疫苗-->二期解盲成功就EUA;
 ```
+
+```mermaid
+sequenceDiagram
+  Alice->John: Hello John, how are you?
+  loop Every minute
+    John-->Alice: Great!
+  end
+```
+
