@@ -4,7 +4,7 @@ module.exports = {
   base: '/VuePressDemo_GithubActions/',
   repo: 'https://github.com/MichaelNien/VuePressDemo_GithubActions',
   plugins: [
-	'@renovamen/vuepress-plugin-mermaid'
+	'vuepress-plugin-mermaidjs'
   ],
   themeConfig: {
     sidebarDepth: 0,
