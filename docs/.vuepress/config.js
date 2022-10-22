@@ -1,8 +1,8 @@
 module.exports = {
-  title: 'Terraform 的一百零一種姿勢',
+  title: '測試 VuePress GitHub Actions',
   description: 'Terraform manage guide',
-  base: '/terraform-manage-guide/',
-  repo: 'https://github.com/shazi7804/terraform-manage-guide',
+  base: '/VuePressDemo_GithubActions/',
+  repo: 'https://github.com/MichaelNien/VuePressDemo_GithubActions',
   plugins: [
         'mermaidjs'
   ],
