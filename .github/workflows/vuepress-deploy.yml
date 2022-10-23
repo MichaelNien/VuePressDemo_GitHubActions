@@ -11,7 +11,7 @@ jobs:
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        USER_NAME   : GitHubActions
-        USER_EMAIL  : GitHubActions@github.com
+        USER_NAME   : GitHub Actions
+        USER_EMAIL  : github.actions@github.com
         BUILD_SCRIPT: yarn && yarn docs:build
         BUILD_DIR: docs/.vuepress/dist/
