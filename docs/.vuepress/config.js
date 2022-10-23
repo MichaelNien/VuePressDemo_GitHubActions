@@ -1,8 +1,8 @@
 module.exports = {
   title: '測試 VuePress GitHub Actions',
   description: 'Terraform manage guide',
-  base: '/VuePressDemo_GithubActions/',
-  repo: 'https://github.com/MichaelNien/VuePressDemo_GithubActions',
+  base: '/VuePressDemo_GitHubActions/',
+  repo: 'https://github.com/MichaelNien/VuePressDemo_GitHubActions',
   plugins: [
 	'vuepress-plugin-mermaidjs'
   ],

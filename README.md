@@ -1,4 +1,4 @@
-# VuePressDemo Github Actions
+# VuePressDemo GitHub Actions
 
 
 
