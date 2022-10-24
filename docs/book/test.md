@@ -1,5 +1,7 @@
 # test
 
+[test2](test2.md)
+
 ```mermaid
 pie title 測試
     "AA" : 30
