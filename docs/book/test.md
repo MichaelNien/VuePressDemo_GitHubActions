@@ -2,6 +2,8 @@
 
 [test2](test2.md)
 
+[中文字](中文字.md)
+
 ```mermaid
 pie title 測試
     "AA" : 30
