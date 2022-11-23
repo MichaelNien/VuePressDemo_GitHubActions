@@ -2,4 +2,4 @@
 
 部署到GitHubPage
 
-https://github.com/JamesIves/github-pages-deploy-action
+https://github.com/jenkey2011/vuepress-deploy
