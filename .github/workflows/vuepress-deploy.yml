@@ -14,10 +14,10 @@ jobs:
       run: yarn && yarn docs:build
       
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@v3
-      with:
-          access_token: ${{ secrets.ACCESS_TOKEN }}
-          branch: gh-pages
-          folder: docs/.vuepress/dist
-          git-config-name: GitHub Actions
-          git-config-email: github.actions@github.com
+      uses: jenkey2011/vuepress-deploy@master
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        USER_NAME   : GitHub Actions
+        USER_EMAIL  : github.actions@github.com
+        BUILD_SCRIPT: yarn && yarn docs:build
+        BUILD_DIR: docs/.vuepress/dist/
