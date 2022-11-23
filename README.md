@@ -1,3 +1,5 @@
 # VuePressDemo GitHub Actions
 
-https://michaelnien.github.io/VuePressDemo_GitHubActions/
+部署到GitHubPage
+
+https://github.com/JamesIves/github-pages-deploy-action
