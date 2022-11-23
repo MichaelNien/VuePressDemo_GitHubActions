@@ -14,7 +14,7 @@ jobs:
       run: yarn && yarn docs:build
       
     - name: Deploy
-      uses: jenkey2011/vuepress-deploy@master
+      uses: jenkey2011/vuepress-deploy@v2.0.0
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         USER_NAME   : GitHub Actions
