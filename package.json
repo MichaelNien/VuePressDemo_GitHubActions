@@ -1,6 +1,6 @@
 {
 	"dependencies": {
-		"webpack": "^5.79.0",
+		"webpack": "^4.44.1",
 		"vuepress-plugin-mermaidjs": "1.9.1",
 		"vuepress-plugin-reading-progress": "1.0.9",
 		"@vuepress/plugin-nprogress": "^1.9.9",
