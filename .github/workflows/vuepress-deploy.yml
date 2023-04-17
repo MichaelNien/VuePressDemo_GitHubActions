@@ -6,6 +6,7 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    
     strategy:
       matrix:
         node-version: [18.x]
@@ -17,11 +18,9 @@ jobs:
     - name: Build
       run: yarn && yarn docs:build
       
-    - name: Deploy
-      uses: jenkey2011/vuepress-deploy@v2.0.0
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        USER_NAME   : GitHub Actions
-        USER_EMAIL  : github.actions@github.com
-        BUILD_SCRIPT: yarn && yarn docs:build
-        BUILD_DIR: docs/.vuepress/dist/
+    - name: Deploy  
+        uses: JamesIves/github-pages-deploy-action@4.1.3
+        with:
+          BRANCH: gh-pages
+          FOLDER: docs/.vuepress/dist
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
