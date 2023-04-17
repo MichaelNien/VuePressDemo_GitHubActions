@@ -10,7 +10,7 @@
 	},
 	"license":"MIT",
 	"scripts": {
-		"docs:build": "vuepress build docs",
-		"docs:dev": "vuepress dev docs"
+		"docs:build": "set NODE_OPTIONS=--openssl-legacy-provider & vuepress build docs",
+		"docs:dev": "set NODE_OPTIONS=--openssl-legacy-provider & vuepress dev docs"
 	}
 }
