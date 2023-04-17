@@ -6,4 +6,4 @@ https://github.com/actions/checkout
 
 部署到GitHubPage
 
-https://github.com/jenkey2011/vuepress-deploy
+https://github.com/JamesIves/github-pages-deploy-action
