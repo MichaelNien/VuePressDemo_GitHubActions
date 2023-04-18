@@ -16,6 +16,12 @@ jobs:
     - name: Build
       run: yarn && yarn docs:build
       
+    - name: Delete branch      
+      uses: dawidd6/action-delete-branch@v3  
+      with:
+         github_token: ${{ secrets.ACCESS_TOKEN }}        
+         branches: "gh-pages"
+      
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.3
       with:
