@@ -1,6 +1,6 @@
 module.exports = {
   title: '測試 VuePress GitHub Actions',
-  description: 'Terraform manage guide',
+  description: 'VuePress GitHub Actions',
   base: '/VuePressDemo_GitHubActions/',
   repo: 'https://github.com/MichaelNien/VuePressDemo_GitHubActions',
   plugins: [
@@ -13,7 +13,7 @@ module.exports = {
     ],
     nav: [
       { text: 'Home', link: '/' },
-	  { text: 'Test1', link: '/book/test.md' }
+	  { text: 'Test1', link: '/demo/test.md' }
     ]
   }
 }
