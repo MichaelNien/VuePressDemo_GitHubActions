@@ -13,6 +13,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3.1.0
       
+    # 初始化需要註解此功能  
     - name: Delete branch      
       uses: dawidd6/action-delete-branch@v3  
       with:
