@@ -13,15 +13,15 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3.1.0
       
+    - name: Build
+      run: yarn && yarn docs:build
+      
     - name: Delete branch      
       uses: dawidd6/action-delete-branch@v3  
       with:
          github_token: ${{ secrets.ACCESS_TOKEN }}        
          branches: gh-pages
          soft_fail: true
-      
-    - name: Build
-      run: yarn && yarn docs:build
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.9
