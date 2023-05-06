@@ -9,10 +9,10 @@ module.exports = {
   themeConfig: {
     sidebarDepth: 0,
     sidebar: [
-      ['/', '前言']
+      ['/index.md', '首頁']
     ],
     nav: [
-      { text: 'Home', link: '/' },
+      { text: '首頁', link: '/index.md' },
 	  { text: 'Test1', link: '/demo/test.md' }
     ]
   }
