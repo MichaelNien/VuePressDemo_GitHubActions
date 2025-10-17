@@ -1,5 +1,9 @@
 # VuePressDemo GitHub Actions
 
+[GitHub Actions將於2026年3月預設改用Node24，Node20逐步棄用](https://www.ithome.com.tw/news/171329)
+
+
+
 ## GitHub Actions
 
 - 拉取分支
